@@ -162,7 +162,14 @@
     
     var donutOptions = {
         //cutoutPercentage: 85, 
-        legend: {position:'bottom', padding:5, labels: {pointStyle:'circle', usePointStyle:true}}
+        legend: {
+            position:'bottom', 
+            padding:5, 
+            labels: {
+                pointStyle:'circle', 
+                usePointStyle:true
+            }
+        }
     };
 
     // donut 1
